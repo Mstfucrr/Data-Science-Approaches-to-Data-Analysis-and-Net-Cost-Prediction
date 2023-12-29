@@ -2,7 +2,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd
 
-dataset = pd.read_excel("Data.xlsx")
+dataset = pd.read_excel('excles/Data.xlsx')
 
 conditions = {
     "calve": "1",
@@ -48,10 +48,10 @@ threshold = 100
 inval = dataset["MAMUL"].value_counts() 
 for i,v in zip(inval.index, inval.values): 
     if v < threshold:
-        dataset.drop(dataset[dataset["MAMUL"] == i].index,inplace=True)
+        dataset = dataset.drop(dataset[dataset["MAMUL"] == i].index)
 
 
 # Yeni veri setini excel dosyasına yazdırın
-with pd.ExcelWriter("fix_ds_to_threshold.xlsx") as writer:
+with pd.ExcelWriter("vm_dataset.xlsx") as writer:
     dataset.to_excel(writer, index=False)
 
