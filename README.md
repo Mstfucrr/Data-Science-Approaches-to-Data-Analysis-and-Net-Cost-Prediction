@@ -49,16 +49,6 @@ Z-score ve IQR veri ön işlemesi ile eğitilen modelin performans karşılaşt�
 5. `init.ipynb` dosyasını çalıştırarak regresyon modelinin sonuçlarını gözlemleyin.
 6. `analysis.ipynb` dosyasını çalıştırarak veri analizini ve grafikleri gözlemleyin.
 
-### **Örnek Çıktı:**
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>Training R^2 score: 0.919
-Test R^2 score: 0.919
-Tahmin Edilen Net Maliyet: 4.603
-MSE değeri: 37.827
-RMSE değeri: 6.150
-MAE değeri: 4.603
-</pre>
-</div>
 <hr /> 
 
 ### **Örnek Görselleştirme:**
