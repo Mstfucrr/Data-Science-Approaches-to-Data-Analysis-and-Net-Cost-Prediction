@@ -22,10 +22,15 @@ Bu proje, Unilever'in 8 aylık süre zarfında Food (Gıda), HC (Ev Bakımı) ve
 Projede Seaborn kütüphanesi kullanılarak yapılan grafiklerle veri setinin istatistiksel gösterimi sunulmuştur.
 
 ### **Regresyon Model Performansı:**
-- MSE değeri: 37.827
-- RMSE değeri: 6.150
-- R2 değeri: 0.919
-- MAE değeri: 4.603
+Z-score ve IQR veri ön işlemesi ile eğitilen modelin performans karşılaştırması.
+
+| Değer\Yöntem | Z-score veri ön işlemesi | IQR veri ön işlemesi |
+|--------------|-------------------------|----------------------|
+| MSE          | 32.6917                 | 37.8279              |
+| RMSE         | 5.7176                  | 6.1504               |
+| R2           | 0.9470                  | 0.9194               |
+| MAE          | 4.1301                  | 4.603                |
+
 
 ### **Gereksinimler:**
 - Python 3.11 (https://www.python.org/downloads/)
