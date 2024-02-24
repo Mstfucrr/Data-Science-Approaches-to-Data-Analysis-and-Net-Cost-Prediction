@@ -46,8 +46,8 @@ Performance comparison of the model trained with Z-score and IQR data preprocess
 2. [Download and install](https://jupyter.org/install) the Jupyter Notebook.
 3. Download or copy the project files.
 4. Open the project files with Jupyter Notebook.
-5. `init.ipynb` dosyasını çalıştırarak regresyon modelinin sonuçlarını gözlemleyin.
-6. `analysis.ipynb` dosyasını çalıştırarak veri analizini ve grafikleri gözlemleyin.
+5. Run `init.ipynb` and observe the results of the regression model.
+6. Run `analysis.ipynb` and observe the data analysis and graphs.
 
 <hr /> 
 
