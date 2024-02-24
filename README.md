@@ -51,7 +51,7 @@ Performance comparison of the model trained with Z-score and IQR data preprocess
 
 <hr /> 
 
-### ** Sample Visualisation: **
+### **Sample Visualisation:**
 <div style="display: flex; align-items: center; justify-content: center; gap: 1rem; flex-wrap: wrap;">
 <img src="https://github.com/Mstfucrr/Veri-Madenciligi-Proje/assets/76887611/1e915ca2-e2af-4408-92c1-832102e97b80" alt="1" width="500" height="auto" >
 <img src="https://github.com/Mstfucrr/Veri-Madenciligi-Proje/assets/76887611/f95455c0-1af0-43af-b974-dbe6b83acb26" alt="2" width="300" height="auto" >
@@ -64,5 +64,5 @@ Performance comparison of the model trained with Z-score and IQR data preprocess
 
 
 
-** Usage: **
+**Usage:**
 By opening the project files with Jupyter Notebook, you can evaluate the regression model and perform data analysis.
